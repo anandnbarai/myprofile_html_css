@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anand Barai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery_style.css">
+    <link rel="icon" href="anand gallery/1.png" type="text/x-icon">
+    <!-- CSS Bootstrap file -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Icon Bootstrap file load -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- JS File Load -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar nav navbar-expand-md bg-dark">
+
+        <!-- nav-brand is predefined class for brand name, text decoration none inbuiilt in this class  -->
+        <!-- bi means bootstrap icon bi bi-icon name -->
+
+        <a href="anand.html" class="navbar-brand text-white p-3" id="anand"> <img src="1.png" width="50px"
+                height="auto"> Anand Barai </a>
+
+        <!-- data bs target means open that data -->
+        <!-- A Class name can be used by multiple HTML elements, 
+            while an ID name must only be used by one HTML element within the page.  -->
+
+        <button type="button" class="navbar-toggler btn btn-sm shadow  p-1 m-3" data-bs-toggle="collapse"
+            data-bs-target="#myNavbar">
+            <i class="bi bi-justify" style="color: white;"></i>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+
+            <!-- below class (navbar-link class) is used in CSS to call this class and style content accordingly -->
+
+            <ul class="navbar-link">
+                <li><a href="navbar_bs.html"><i class="bi bi-house-door-fill"
+                            style="padding-right: 5px;padding-left: 320px;"></i>Home</a></li>
+
+
+                <li><a href="anand_photos.html"><i class="bi bi-images" style="padding-right: 5px;"></i> My
+                        Gallery</a>
+                </li>
+
+                <li><a href="iframe/iframe.html"><i class="bi bi-person-workspace"
+                            style="padding-right: 5px;"></i></i>My Work</a></li>
+
+                <!-- class dropdown-toggle  used for dropdown symbol -->
+
+                <li class="dropdown"><a class="dropdown-toggle" data-bs-toggle="dropdown" href="#"><i
+                            class="bi bi-diagram-3-fill" style="padding-right: 5px;"></i> Social Media</a>
+                    <ul class="dropdown-menu bg-dark" style="width:200px;">
+
+                        <li><a href="https://www.facebook.com/anandnbarai"><i class="bi bi-facebook"
+                                    style="padding-right: 5px;"></i>Facebook</a></li>
+                        <li><a href="https://twitter.com/anandnbarai"><i class="bi bi-twitter"
+                                    style="padding-right: 5px;"></i>Twitter</a></li>
+                        <li><a href="https://www.linkedin.com/in/anandnbarai"> <i class="bi bi-linkedin"
+                                    style="padding-right: 5px;"></i> Linkedin</a></li>
+                        <li><a href="https://www.instagram.com/barai_anand"><i class="bi bi-instagram"
+                                    style="padding-right: 5px;"></i>Instagram</a></li>
+                    </ul>
+                </li>
+
+                <a class="contact" href="contact_me.html"><i class="bi bi-person-circle"
+                        style="padding-right: 5px;"></i> Contact Me </a>
+            </ul>
+
+    </nav>
+    <div class="container shadow mt-5 p-5" style="background-color:rgba(250, 0, 0, 0.25); border: none; border-radius: 25px; text-align:justify;">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Hello,</h3>
+                <h3><strong>I'm Anand Barai</strong></h3>
+                <p><em>Mechanical Engineer <br> Web Developer</em></p>
+            </div>
+            
+            <div class="col-md-6">
+                <h3><strong>Education</strong></h3>
+                <p>
+                <ul type="square">
+                    <li>BE in Mechanical Engineering</li>
+                    <li>ME in Production Engineering</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
